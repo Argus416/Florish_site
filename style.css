@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+h2{
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+input{
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0 0;
+}
+
+header{
+    width: 100%;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 19px 0 0 0;
+}
+
+header ul li{
+    list-style: none;
+    margin:0 18px;
+    margin-top: 20px;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+header ul li a:hover {
+    text-decoration: none;
+    color: #777777;
+}
+
+header ul li.logo{
+    width: 145px;
+    height: 64px;
+    background-size: 117%;
+    background-repeat: repeat;
+    background-position: -11px -73px;
+    background-image: url(img/logo.png);
+    cursor: pointer;
+    margin: 9px 18px;
+}
+
+/*************************************
+page_img
+**************************************/
+
+section#page_img{
+    display: block;
+    height: 500px;
+    background-image: url(img/header_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section .content_page_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+
+section .content_page_img p{
+    text-align: center;
+    width: 475px;
+    color: #ddd;
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+section .content_page_img input{
+    width: 300px;
+    color: #eee;
+    background-color: #A88D6F;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+section .content_page_img input:hover{
+    background-color: #e0a525;
+}
+
+/*************************************
+Service block
+**************************************/
+
+section#service_block {
+    width: 65%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 15px 30px ;
+}
+
+section#service_block h2 {
+    font-family: Montserrat;
+    margin-top: 50px;
+    padding: 0 13%;
+}
+
+
+section#service_block .services{
+    display: flex;
+    flex-direction: row;
+}
+
+section#service_block .service {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 15px;
+}
+
+section#service_block  .fas, section#service_block  .far{
+   color: #AB9489 !important;
+}
+
+
+
+section#service_block h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    padding-right: 8px;
+}
+
+section#service_block p {
+    text-align: justify;
+    margin: 0 15px 20px 15px;
+}
+
+
+section#service_block input {
+    background-color: #9DA7AA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 28px ;
+    padding: 10px 0;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+section#service_block input:hover {
+    background-color: rgb(214, 210, 210);
+}
+
+
+/*************************************
+Who am I ?
+**************************************/
+
+#who_am_i{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    height: 500px;
+
+}
+
+#who_am_i .who_am_i_first_block{
+    width: 50%;
+    background-image: url(img/working.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1,1);
+}
+
+
+#who_am_i .who_am_i_second_block{
+    width: 50%;
+    background-color: #F6F5F1;
+}
+
+#who_am_i .who_am_i_second_block_content {
+    padding: 53px 60px 0px 100px;
+    text-align: justify;
+}
+
+#who_am_i .who_am_i_second_block_content h2 {
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+
+
+
+
+#who_am_i .who_am_i_second_block_content input{
+    border: none;
+    background-color: #A88D6F;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#who_am_i .who_am_i_second_block_content input:hover{
+    background-color: #a1886b;
+}
+
+
+/*************************************
+popular posts
+**************************************/
+
+#popular_posts{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+#popular_posts h2{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin-bottom: 38px;
+    font-size: 4rem;
+}
+
+#popular_posts .popular_posts_blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#popular_posts .popular_posts_blocks .post{
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#popular_posts .popular_posts_blocks .post:nth-child(1){
+    background-color: #E7E7E3;
+}
+
+#popular_posts .popular_posts_blocks .post:nth-child(2){
+    background-color: #A98D6F;
+}
+
+#popular_posts .popular_posts_blocks .post:nth-child(3){
+    background-color: #F7F6F2;
+}
+
+#popular_posts .popular_posts_blocks .post:nth-child(4){
+    background-color: #9DA7AA;
+}
+
+#popular_posts .popular_posts_blocks .logo_post{
+    display: block;
+    height: 47px;
+    width: 100px;
+    background-image: url(img/logo.png);
+    background-size: 56%;
+    background-position: 20px 9px;
+    background-repeat: no-repeat;
+    margin: 7px auto 0px auto;
+}
+
+#popular_posts .popular_posts_blocks p{
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 3rem;
+    margin: 31px 0 ;
+}
+
+#popular_posts .popular_posts_blocks .post_photo{
+    height: 170px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+#popular_posts .popular_posts_blocks .post:nth-child(1) .post_photo{
+    background-image: url(img/productive.jpg);
+    background-position: 1px -30px;
+}
+
+#popular_posts .popular_posts_blocks .post:nth-child(2) .post_photo{
+    background-image: url(img/success.jpg);
+}
+
+#popular_posts .popular_posts_blocks .post:nth-child(3) .post_photo{
+    background-image: url(img/marketing.jpg);
+}
+
+#popular_posts .popular_posts_blocks .post:nth-child(4) .post_photo{
+    background-image: url(img/female\ entrepreneur.jpg);
+    background-position:  0 -115px;
+}
+
+#popular_posts .btn_read_more {
+    text-align: center;
+    margin-top: 47px;
+}
+
+#popular_posts .btn_read_more input{
+    padding: 10px 27px;
+    background-color: #9DA7AA;
+    border: none;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 8px;
+}
+
+#popular_posts .btn_read_more input:hover {
+    background-color: rgb(214, 210, 210);
+}
+
+
+/*************************************
+Take the Leap
+**************************************/
+
+section#why_us{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+
+section#why_us .first_block{
+    width: 50%;
+    background-color: #F6F5F1;
+}
+
+section#why_us .first_block .first_block_content{
+    padding: 53px 60px 0px 100px;
+    text-align: justify;
+
+}
+
+
+
+section#why_us .first_block .first_block_content h2{
+    text-align: left;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+section#why_us .first_block .first_block_content h3{
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+section#why_us .seconde_block{
+    width: 50%;
+    background-image: url(img/developer.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+section#why_us #newsletter #newsletter_form{
+    margin-top: 45px;
+}
+
+
+section#why_us #newsletter #newsletter_form #newsletter_insert{
+    width: 31%;
+    padding: 12px 10px 15px 10px;
+    border: 1px solid #F6F5F1;
+}
+
+section#why_us #newsletter #newsletter_form #newsletter_insert:focus{
+    -webkit-box-shadow: inset 0px 0px 61px -20px rgba(43, 144, 184, 0.71);
+    -moz-box-shadow: inset 0px 0px 61px -20px rgba(43, 144, 184, 0.71);
+    box-shadow: inset 0px 0px 61px -20px rgba(43, 144, 184, 0.71);
+}
+
+section#why_us #newsletter #newsletter_form #submit_newsletter{
+    width: 120px;
+    padding: 12px 10px 15px 10px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #A98D6F;
+    color: white;
+    cursor: pointer;
+}
+
+/*************************************
+Footer
+**************************************/
+
+section#footer {
+    background-color: #9AA5A7;
+    color: white;
+    margin-top: -36px;
+    height: 450px;
+}
+
+section#footer .footer_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 336px;
+    width: 100%;
+}
+
+section#footer h2{
+    font-size: 4.3rem;
+    font-weight: 500;
+    padding: 25px 0 0 0;
+}
+
+section#footer  p::after{
+    content: "Seaction Seven";
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+
+
+
+
+section#footer ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+section#footer ul li{
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 0;
+}
+section#footer ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+
+}
+
+
+
+section#footer  ul.low li a{
+    text-transform: initial;
+    font-size: 1.2rem;
+}
+
+section#footer  ul.low li:nth-child(1) a::after,section#footer  ul.low li:nth-child(2) a::after {
+    content: "|";
+    margin-left: 10px;
+}
+
+
+
+
+
